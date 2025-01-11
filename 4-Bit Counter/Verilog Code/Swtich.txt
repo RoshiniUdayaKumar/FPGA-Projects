@@ -5,7 +5,7 @@ module switch (
    output [3:0] LEDS
 );
     
-assign LEDS[3:0] = SWITCHES[3:0]; //using swithces to turn ON the LED on the ZYBO Board
+assign LEDS[3:0] = SWITCHES[3:0]; //using switches to turn ON and OFF the LED on the ZYBO Board
     
 endmodule
 
