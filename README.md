@@ -27,7 +27,7 @@ For implementing an up-down counter, the FPGA board's in-built push buttons, BTN
 - When neither button is pressed, the counter holds its current value.
 
 ## Project 2: Design a Jackpot Game
-The LEDs will light up in a specific pattern, glowing one after the other in sequence. Each LED is linked to a corresponding switch. When a switch is pressed corresponding to the LED glowing, we have hit a jackpot condition; in that case, all the LEDs glow. 
+The LEDs will light up in a specific pattern, glowing one after the other in sequence. Each LED is linked to a corresponding switch. When a player presses a switch corresponding to the LED glowing, we have hit a jackpot condition; in that case, all the LEDs glow. 
 
 To implement this logic, the following steps are followed:  
 1. Assign Switches to LEDs: Each switch controls a specific LED.  
