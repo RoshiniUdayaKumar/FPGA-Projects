@@ -26,3 +26,11 @@ For implementing an up-down counter, the FPGA board's in-built push buttons, BTN
 - BTN1: Activates the down-counter mode (decrements the count).  
 - When neither button is pressed, the counter holds its current value.
 
+### Project 2: Design a Jackpot Game
+The LEDs will light up in a specific pattern, glowing one after the other in sequence. Each LED is linked to a corresponding switch. When a switch is pressed corresponding to the LED glowing, we have hit a jackpot condition; in that case, all the LEDs glow. 
+
+To implement this logic, the following steps are followed:  
+1. Assign Switches to LEDs: Each switch controls a specific LED.  
+2. Use a Clock Divider Circuit: The clock divider circuit reduces the clock frequency, making the LED transitions slow enough to observe.  
+3. Use an Edge Detection Circuit to Achieve the Jackpot Condition**: A positive edge detection circuit is used to ensure the jackpot condition is triggered only when the switch is pressed (rising edge). This prevents the condition from being falsely triggered when the switch is released or in an off state.
+
